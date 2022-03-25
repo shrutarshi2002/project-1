@@ -24,8 +24,9 @@
 
 .butt {
   position: absolute;
-  bottom: 40px;
-  left: 45%;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #features {
@@ -107,9 +108,56 @@ hr {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+#footer {
+  padding: 36px 15px 16px;
+  color: black;
+
+
+
+  text-align: center;
+
+  background-color: white;
+  height: 50px;
+}
+#testimonials {
+
+  background-color: ;
+  text-align: center;
+  color: white;
+
+}
+.testimonial-image{
+  width: 60%;
+  border-radius: 50%;
+}
+.testi-img {
+  width: 60%;
+  border-radius: 50%;
+}
+#cta {
+  margin-top: 15px;
+  padding: 5% 15% 5%;
+
+
+  text-align: center;
+  background-color: #1256AE;
+}
+
 
 @media(max-width:1028px) {
   .backimage {
     width: 980px;
   }
+  .mimag{
+    width:980px;
+    height:960px;
+  }
+  .butt {
+    position: absolute;
+    margin: 5% 3% 5% 0;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
 }
