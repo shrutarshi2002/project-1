@@ -1,6 +1,7 @@
 .backimage {
   width: 1520px;
-  position: relative;
+  height: 600px;
+
 }
 
 .mimag {
@@ -23,10 +24,10 @@
 }
 
 .butt {
-  position: absolute;
+
   top: 90%;
   left: 50%;
-  transform: translate(-50%, -50%);
+
 }
 
 #features {
@@ -134,6 +135,14 @@ hr {
   width: 60%;
   border-radius: 50%;
 }
+.dta{
+  text-align: center;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+
+  background-color: #010235;
+
+}
 #cta {
   margin-top: 15px;
   padding: 5% 15% 5%;
@@ -155,7 +164,7 @@ hr {
   .butt {
     position: absolute;
     margin: 5% 3% 5% 0;
-    top: 30%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
